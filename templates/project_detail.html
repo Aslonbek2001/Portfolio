@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Project Detail | My Portfolio{% endblock %}
+
+{% block content %}
+
+{% if project %}
+    <section class="project-detail">
+        <div class="section-head">
+            <div>
+                <p class="eyebrow">Project</p>
+                <h1>{{ project.name }}</h1>
+            </div>
+            {% if project.project_url %}
+                <a class="link-arrow" href="{{ project.project_url }}" target="_blank">Project URL</a>
+            {% endif %}
+        </div>
+
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h2>Short Description</h2>
+                <p>{{ project.description }}</p>
+            </div>
+            <div class="detail-card">
+                <h2>Technologies</h2>
+                <p>{{ project.full_text }}</p>
+            </div>
+        </div>
+
+        <a class="btn-secondary" href="/projects">Back to Projects</a>
+    </section>
+{% else %}
+    <section class="project-detail">
+        <h1>Project not found</h1>
+        <p>Try going back to the projects page.</p>
+        <a class="btn-secondary" href="/projects">Back to Projects</a>
+    </section>
+{% endif %}
+
+{% endblock %}

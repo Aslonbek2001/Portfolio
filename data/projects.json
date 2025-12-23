@@ -1,0 +1,74 @@
+[
+  {
+    "name": "MalakaGeo",
+    "project_url": "https://malakageo.uz/",
+    "description": "Geoalogiya sohasida hodimlar malakasini oshiruvchi platforma",
+    "full_text": "MalakaGeo loyihasi geografiya fanini qiziqarli testlar, xaritalar va statistik tahlillar orqali o'rgatishga qaratilgan."
+  },
+  {
+    "name": "KoreanQuiz",
+    "project_url": "https://play.google.com/store/apps/details?id=uz.eps.topic",
+    "description": "Koreys tili bo'yicha quiz va trening.",
+    "full_text": "KoreanQuiz loyihasi til o'rganish jarayonida savol-javoblar, progress statistikasi va tavsiyalarni taqdim etadi."
+  },
+  {
+    "name": "Institut",
+    "project_url": "https://example.com/institut",
+    "description": "Institutning rasmiy web sayti",
+    "full_text": "Institut loyihasi o'quv jarayonlarini kuzatish, e'lonlar va ma'lumotlar boshqaruvi uchun admin panelni o'z ichiga oladi."
+  },
+  {
+    "name": "Universitet",
+    "project_url": "https://unigeo.uz",
+    "description": "Universitetning rasmiy web sayti",
+    "full_text": "Universitet loyihasi talabalar, kurslar, semestr va baholash jarayonlarini bir joyda boshqarish imkonini beradi."
+  },
+  {
+    "name": "Students reyting",
+    "project_url": "https://toptalaba.unigeo.uz/",
+    "description": "Hemis tizimidagi top 100 talabalar",
+    "full_text": "Students reyting loyihasi baholarni avtomatik hisoblaydi, guruhlar bo'yicha statistikani chiqaradi va eksport qiladi."
+  },
+  {
+    "name": "Grand",
+    "project_url": "https://grand.unigeo.uz/",
+    "description": "Grantlarni qayta taqsmilash platformasi",
+    "full_text": "Grand tizimi arizalarni qabul qilish, tekshirish uchun mo'ljallangan platforma. (Django + Templates. OAuth2 + PostgreSQL)"
+  },
+  {
+    "name": "MurojaatBot",
+    "project_url": "https://t.me/gfumurojaatbot",
+    "description": "Telegram bot orqali murojaatlar qabul qilish.",
+    "full_text": "MurojaatBot foydalanuvchilardan murojaatlarni yig'adi, kategoriyalaydi va admin panelga yuboradi."
+  },
+  {
+    "name": "Murojaat sayt",
+    "project_url": "https://murojaat.unigeo.uz/",
+    "description": "Sayt orqali murojaatlar qabul qilish.",
+    "full_text": "MurojaatBot foydalanuvchilardan murojaatlarni yig'adi, kategoriyalaydi va admin panelga yuboradi."
+  },
+  {
+    "name": "Vacancy",
+    "project_url": "https://vacancy.unigeo.uz./uz/",
+    "description": "Vakansiyalarni joylashtirish va qidirish.",
+    "full_text": "Vacancy loyihasi ish beruvchilar va nomzodlar uchun qulay vakansiya va resume tizimini taqdim etadi."
+  },
+  {
+    "name": "ImageEditor bot",
+    "project_url": "https://example.com/imageeditor-bot",
+    "description": "Rasm tahrirlash funksiyalariga ega bot.",
+    "full_text": "ImageEditor bot filtrlash, kesish, format o'zgartirish va watermark qo'shish imkoniyatlarini beradi."
+  },
+  {
+    "name": "Library",
+    "project_url": "https://lib.uzgeouniver.uz/",
+    "description": "Kutubxona kitoblarini boshqarish tizimi.",
+    "full_text": "Library tizimi kitoblar ro'yxati, ijaraga berish va qaytarish jarayonlarini avtomatlashtiradi."
+  },
+  {
+    "name": "Files_Manage",
+    "project_url": "",
+    "description": "Fayllarni boshqarish.",
+    "full_text": "Files_Manage loyihasi fayllarni avtomatik tartiblaydi, qidiradi va ruxsatlarni boshqarishga yordam beradi."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "Rakhimov Aslonbek",
+  "title": "Backend Developer",
+  "summary": "Django, FastAPI, REST API va database bilan ishlash tajribasi. Ishga tushirish, optimizatsiya va integratsiya bo'yicha loyihalar qilganman.",
+  "contact": {
+    "location": "Toshkent, Uzbekistan, Namangan",
+    "email": "aslonbekrahimov.1583@gmail.com",
+    "phone": "+998 94 503 18 17"
+  },
+  "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Redis", "REST API"],
+  "experience": [
+    {
+      "role": "Backend Developer",
+      "company": "Gealogiya fanlari universiteti",
+      "period": "2023 - Hozir",
+      "details": [
+        "Django va FastAPI asosida REST API lar yaratish va deploy qilish.",
+        "Django templates system bilan saytlar yaratish",
+        "Telegram bot va Platformalarni OAuth2 Hemis va OneId bilan integratsiya qilish",
+        "PostgreSQL bilan ma'lumotlar bazasi dizayni va optimizatsiya."
+      ]
+    },
+    {
+      "role": "Python Developer",
+      "company": "Startup Project",
+      "period": "2024 - 2025",
+      "details": [
+        "Mobil ilova uchun backend ishlab chiqish",
+        "EPS topik mobil ilovasi asoschilaridan biri"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Tashkent University of Information Technologies",
+      "degree": "Bachelor of Computer Science",
+      "period": "2019 - 2023"
+    }
+  ]
+}

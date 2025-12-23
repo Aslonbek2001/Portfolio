@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Resume | My Portfolio{% endblock %}
+
+{% block content %}
+
+<section class="resume-page">
+    <div class="section-head">
+        <div>
+            <p class="eyebrow">Resume</p>
+            <h1>{{ resume.name }}</h1>
+            <p class="subtitle">{{ resume.title }}</p>
+        </div>
+        <p class="section-note">{{ resume.summary }}</p>
+    </div>
+
+    <div class="detail-grid">
+        <div class="detail-card">
+            <h2>Contact</h2>
+            <p>{{ resume.contact.location }}</p>
+            <p>{{ resume.contact.email }}</p>
+            <p>{{ resume.contact.phone }}</p>
+        </div>
+        <div class="detail-card">
+            <h2>Skills</h2>
+            <div class="resume-tags">
+                {% for skill in resume.skills %}
+                    <span>{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-card">
+        <h2>Experience</h2>
+        <div class="resume-list">
+            {% for item in resume.experience %}
+                <div class="resume-entry">
+                    <div class="resume-item">
+                        <div>
+                            <h3>{{ item.role }}</h3>
+                            <p>{{ item.company }}</p>
+                        </div>
+                        <span class="resume-period">{{ item.period }}</span>
+                    </div>
+                    <ul>
+                        {% for detail in item.details %}
+                            <li>{{ detail }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="detail-card">
+        <h2>Education</h2>
+        {% for item in resume.education %}
+            <div class="resume-item">
+                <div>
+                    <h3>{{ item.school }}</h3>
+                    <p>{{ item.degree }}</p>
+                </div>
+                <span class="resume-period">{{ item.period }}</span>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="detail-card">
+        <h2>Download Resume</h2>
+        <p>PDF faylni yuklab olib, to'liq tajriba va malakalarimni ko'rishingiz mumkin.</p>
+        <a class="btn-primary" href="/download-cv">Download Resume</a>
+    </div>
+</section>
+
+{% endblock %}
